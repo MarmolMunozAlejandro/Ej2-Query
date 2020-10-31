@@ -17,8 +17,8 @@ db.inventory.insertMany([
  ]);
 
 db.inventory.insertMany([
-    { item: "shirt", qty: 58, size: { h: 3, w: 8, uom: "in" }, status: "A", offer:60 },
+    { item: "shirt", qty: 58, size: { h: 4, w: 4, uom: "cm" }, status: "A", offer:60 },
     { item: "trousers", qty: 58, size: { h: 3, w: 8, uom: "in" }, status: "A", offer:50 },
-    { item: "skirt", qty: 58, size: { h: 3, w: 8, uom: "in" }, status: "A", offer:20},
-    { item: "shoes", qty: 58, size: { h: 3, w: 8, uom: "in" }, status: "A", offer:10 },    
+    { item: "skirt", qty: 58, size: { h: 8.8, w: 7, uom: "in" }, status: "D", offer:20},
+    { item: "shoes", qty: 58, size: { h: 2, w: 10, uom: "cm" }, status: "A", offer:10 },    
  ])
